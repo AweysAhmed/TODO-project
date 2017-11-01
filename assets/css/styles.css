@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+background: #ED4264;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#container {
+	margin: 100px auto;
+	width: 360px;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+h1 {
+	width: 100%;
+	float: right;
+	margin: 0;
+	padding: 0;
+	background: #2980b9;
+}
+
+
+
+.fa-plus {
+	float: right;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: gray;
+}
