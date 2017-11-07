@@ -13,10 +13,12 @@ $(this).remove();
 $("input[type='text']").keypress(function(e){
 var todo = $(this).val();
 if (e.which === 13) {
-$("ul").append("<li><span class='fa fa-trash'></span> "  + todo + "</li>");
+$("ul").append("<li><span><i class='fa fa-trash'></i></span> "  + todo + "</li>");
 $(this).val("");
 }
 });
 
-
+$(".fa-plus").click(function(){
+$("input[type='text']").fadeToggle();
+});
 
